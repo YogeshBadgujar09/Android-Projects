@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Menu"
+
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnNavigate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate 1"
+
+        android:onClick="btnNavigate1"
+        />
+
+    <Button
+        android:id="@+id/btnNavigate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate 2"
+        android:onClick="btnNavigate2"
+
+        />
+
+    <Button
+        android:id="@+id/btnNavigate3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate 3"
+        android:onClick="btnNavigate3"
+        />
+
+
+</LinearLayout>
