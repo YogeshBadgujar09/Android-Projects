@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         EditText message = findViewById(R.id.txtComposeMail);
 
         Intent i = new Intent(Intent.ACTION_SEND);
-        i.setData(Uri.parse("mailto"));
+        //i.setData(Uri.parse("mailto"));
+        i.setType("message/rfc822");
+        i.putExtra(Intent.EXTRA_EMAIL, new String[]{to.getText().toString()});
+        i.putExtra(Intent.EXTRA_SUBJECT,subject.getText().toString());
+        i.putExtra(Intent.EXTRA_TEXT,message.getText().toString());
 
-        i.putExtra(Intent.EXTRA_EMAIL, new String[]{to.toString()});
-        i.putExtra(Intent.EXTRA_SUBJECT,subject.toString());
-        i.putExtra(Intent.EXTRA_TEXT,message.toString());
-
-        startActivity(i);
+        startActivity(Intent.createChooser(i,"choose a client"));
 
 
     }
