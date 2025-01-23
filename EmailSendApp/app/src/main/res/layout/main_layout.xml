@@ -32,11 +32,13 @@
             app:srcCompat="@android:drawable/ic_menu_upload" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imgSendEmail"
             android:layout_width="6dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            app:srcCompat="@android:drawable/ic_menu_send" />
+            app:srcCompat="@android:drawable/ic_menu_send"
+            android:onClick="sendEmail"
+            />
 
     </LinearLayout>
         <AdapterViewFlipper
