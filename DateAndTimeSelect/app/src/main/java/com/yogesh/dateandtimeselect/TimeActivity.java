@@ -16,9 +16,10 @@ public class TimeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.time_layout);
     }
 
-    public void btnSetTime(View v){
+    public void setTime(View v){
 
         Button btn = findViewById(R.id.btnSetTime);
 

@@ -13,6 +13,7 @@ public class DateActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.date_layout);
     }
 
     public void btnSetDate(View v){
