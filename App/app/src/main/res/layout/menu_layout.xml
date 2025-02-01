@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="ADDITION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnSub"
+        android:text="SUBSTRACTION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSub"/>
+    <Button
+        android:id="@+id/btnMult"
+        android:text="MULTIPLICATION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Username"/>
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Mobile Number"/>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submit"
+        android:text="SUBMIT"/>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openCall"
+        android:text="CALL"/>
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openEMail"
+        android:text="EMail"/>
+
+    <Button
+        android:id="@+id/btnItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="itemLayout"
+        android:text="Item Layout"/>
+
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="spinnerDemo"
+        android:text="Spinner List Demo"/>
+
+    <Button
+        android:id="@+id/btnDTPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dtPickerDemo"
+        android:text="Date and Time Picker Demo"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loginDemo"
+        android:text="Login Demo"/>
+
+</LinearLayout>
