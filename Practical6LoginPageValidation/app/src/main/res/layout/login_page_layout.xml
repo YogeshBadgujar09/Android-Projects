@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter ADMIN for valid username"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter 12345 for valid password"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:enabled="false"
+
+        />
+
+
+</LinearLayout>
